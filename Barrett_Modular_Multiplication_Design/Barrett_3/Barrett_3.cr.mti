@@ -1,0 +1,49 @@
+D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v {0 {vlog -work work -vopt -stats=none D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module FA
+-- Compiling module CSA
+** Warning: ** while parsing file included at D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(2)
+** at RCA.v(1): (vlog-2275) 'FA' already exists and will be overwritten.
+
+-- Compiling module FA
+-- Compiling module RCA
+-- Compiling module Barrett_3
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(9): In, out, or inout does not appear in port list: X.
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(10): In, out, or inout does not appear in port list: Y_i.
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(11): In, out, or inout does not appear in port list: M.
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(12): In, out, or inout does not appear in port list: mu.
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(13): In, out, or inout does not appear in port list: ZS_reg.
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(13): In, out, or inout does not appear in port list: ZC_reg.
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(8): In, out, or inout does not appear in port list: CLK.
+** Error: D:/questasim64_10.4c/examples/Barrett_3/Barrett_3.v(8): In, out, or inout does not appear in port list: RST.
+
+} {11.0 19.0} {}} D:/questasim64_10.4c/examples/Barrett_3/Booth_coding.v {1 {vlog -work work -vopt -stats=none D:/questasim64_10.4c/examples/Barrett_3/Booth_coding.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module Booth_Encoder
+
+Top level modules:
+	Booth_Encoder
+
+} {} {}} D:/questasim64_10.4c/examples/Barrett_3/tb_Booth_Encoder.v {1 {vlog -work work -vopt -stats=none D:/questasim64_10.4c/examples/Barrett_3/tb_Booth_Encoder.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_Booth_Encoder
+
+Top level modules:
+	tb_Booth_Encoder
+
+} {} {}} D:/questasim64_10.4c/examples/Barrett_3/CA.v {1 {vlog -work work -vopt -stats=none D:/questasim64_10.4c/examples/Barrett_3/CA.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module CA_1
+-- Compiling module CA
+
+Top level modules:
+	CA
+
+} {} {}} D:/questasim64_10.4c/examples/Barrett_3/tb_CA.v {1 {vlog -work work -vopt -stats=none D:/questasim64_10.4c/examples/Barrett_3/tb_CA.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_CA
+
+Top level modules:
+	tb_CA
+
+} {} {}}

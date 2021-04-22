@@ -1,0 +1,81 @@
+C:/questasim64_10.4c/examples/Barrett_2/tb_CSA.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/tb_CSA.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_CSA
+
+Top level modules:
+	tb_CSA
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/tb_Barrett_file.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/tb_Barrett_file.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_Barrett_2_reg
+
+Top level modules:
+	tb_Barrett_2_reg
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/Barrett_2.v {2 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/Barrett_2.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module FA
+-- Compiling module CSA
+** Warning: ** while parsing file included at C:/questasim64_10.4c/examples/Barrett_2/Barrett_2.v(2)
+** at RCA.v(1): (vlog-2275) 'FA' already exists and will be overwritten.
+
+-- Compiling module FA
+-- Compiling module RCA
+** Warning: ** while parsing file included at C:/questasim64_10.4c/examples/Barrett_2/Barrett_2.v(3)
+** at RCA_signed.v(1): (vlog-2275) 'FA' already exists and will be overwritten.
+
+-- Compiling module FA
+-- Compiling module RCA_signed
+-- Compiling module Barrett_2
+
+Top level modules:
+	Barrett_2
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/RCA.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/RCA.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module FA
+-- Compiling module RCA
+
+Top level modules:
+	RCA
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/tb_Barrett_2.v {2 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/tb_Barrett_2.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_Barrett_2
+** Warning: C:/questasim64_10.4c/examples/Barrett_2/tb_Barrett_2.v(64): (vlog-2609) indexed range expression contains whitespace between '+' and ':'.
+
+
+Top level modules:
+	tb_Barrett_2
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/tb_RCA.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/tb_RCA.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_RCA_signed
+
+Top level modules:
+	tb_RCA_signed
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/RCA_signed.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/RCA_signed.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module FA
+-- Compiling module RCA_signed
+
+Top level modules:
+	RCA_signed
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/Barrett_file.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/Barrett_file.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module Barrett_2_reg
+
+Top level modules:
+	Barrett_2_reg
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett_2/CSA.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett_2/CSA.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module FA
+-- Compiling module CSA
+
+Top level modules:
+	CSA
+
+} {} {}}

@@ -1,0 +1,63 @@
+C:/questasim64_10.4c/examples/Barrett/tb_Multiplier_4xN.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett/tb_Multiplier_4xN.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_Multiplier_4xN
+
+Top level modules:
+	tb_Multiplier_4xN
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett/tb_Wallacetree.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett/tb_Wallacetree.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_Wallacetree_4
+
+Top level modules:
+	tb_Wallacetree_4
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett/RCA.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett/RCA.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module FA
+-- Compiling module RCA
+
+Top level modules:
+	RCA
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett/Barrett_4.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett/Barrett_4.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module CSA_F
+-- Compiling module CSA_H
+-- Compiling module Wallace_tree_4
+-- Compiling module FA
+-- Compiling module RCA
+-- Compiling module Barrett_4
+
+Top level modules:
+	Wallace_tree_4
+	Barrett_4
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett/Wallace_tree_4.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett/Wallace_tree_4.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module CSA_F
+-- Compiling module CSA_H
+-- Compiling module Wallace_tree_4
+
+Top level modules:
+	Wallace_tree_4
+
+} {} {}} C:/questasim64_10.4c/examples/Barrett/Wallace_tree_8.v {0 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett/Wallace_tree_8.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+** Error: C:/questasim64_10.4c/examples/Barrett/Wallace_tree_8.v(1): Error in `timescale directive. Expected '/'.
+-- Compiling module CSA
+-- Compiling module Wallace_tree_8
+
+} {3.0 4.0} {}} C:/questasim64_10.4c/examples/Barrett/Multiplier_4xN.v {1 {vlog -work work -vopt -stats=none C:/questasim64_10.4c/examples/Barrett/Multiplier_4xN.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module CSA_F
+-- Compiling module CSA_H
+-- Compiling module Wallace_tree_4
+-- Compiling module FA
+-- Compiling module RCA
+-- Compiling module Multiplier_4xN
+
+Top level modules:
+	Multiplier_4xN
+
+} {} {}}

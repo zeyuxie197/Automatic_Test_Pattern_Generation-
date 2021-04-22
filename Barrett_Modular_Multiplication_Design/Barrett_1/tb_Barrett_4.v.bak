@@ -1,0 +1,66 @@
+module tb_Barrett_4();
+   parameter n = 400;
+   parameter m = 4;
+   integer i,counter, ifd, ofd, check;
+
+   reg [n-1: 0] A;
+   reg [n-1: 0] B;
+   // wire [n:0] Z;
+   reg [2*n:0] golden;
+
+   reg CLK,RST,CARRY_ADD,CARRY_SUB;
+   reg [n-1: 0] X;
+   reg [m-1: 0] Y_i;
+   reg [n-1:0] M;
+   reg [m+4:0] mu;
+   reg CARRY_ADD;
+   wire [n:0] Z_OUT;
+
+   Barrett_4 #(.n(n), .m(m)) DUT (CLK,RST,CARRY_ADD,CARRY_SUB,X,Y_i,M,mu,Z_OUT);
+   always #5 CLK = ~CLK;
+
+   initial begin
+      CLK = 0;
+      CARRY_ADD = 0;
+      CARRY_SUB = 1;
+      ifd = $fopen("Barrett_4_in.txt","r");
+      ofd = $fopen("Barrett_4_result.txt","w");
+
+      while (!$feof(ifd)) begin
+         check = $fscanf(ifd,"%d %d %d %d %d", A, B, M, mu, golden);
+
+         RST = 1; //reset Z_OUT;
+         #1
+         RST = 0;
+         #9
+         RST = 1;
+
+         X = A;
+         counter = n/m + 1;
+         while (counter >= 0) begin
+            if (counter == (n/m + 1)) begin
+               Y_i = m*{1'b0};
+               counter = counter - 1;
+               #10;
+            end
+            else begin
+               Y_i = B[counter*m +: m];
+               counter = counter - 1;
+               #10;
+            end
+         end
+         #10;
+         if (Z_OUT == golden) begin
+            $fdisplay (ofd, "MATCH:  A = %d, B = %d, M = %d, Z = %d, golden = %d", A, B, M, Z_OUT, golden);
+         end
+         else begin            
+            $fdisplay (ofd, "ERROR:  A = %d, B = %d, M = %d, Z = %d, golden = %d", A, B, M, Z_OUT, golden);
+            $fclose(ofd);
+            $stop;
+         end
+
+      end
+      $fclose(ofd);
+      $stop;
+   end
+endmodule

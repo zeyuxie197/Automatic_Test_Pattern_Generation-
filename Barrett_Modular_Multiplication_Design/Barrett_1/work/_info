@@ -1,0 +1,233 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.4c/examples/CSA
+vBarrett_4
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6<DM4b^iIQ^^[JMh7[d?b2
+I9N]5fj`PP6ILfgM=cFa8U1
+Z1 dC:/questasim64_10.4c/examples/Barrett
+w1610676898
+8C:/questasim64_10.4c/examples/Barrett/Barrett_4.v
+FC:/questasim64_10.4c/examples/Barrett/Barrett_4.v
+L0 3
+Z2 OL;L;10.4c;61
+Z3 !s108 1610677231.000000
+!s107 RCA.v|Wallace_tree_4.v|C:/questasim64_10.4c/examples/Barrett/Barrett_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/questasim64_10.4c/examples/Barrett/Barrett_4.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@barrett_4
+vCSA_F
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 5`be9G`@gje_9_0f@HFnn2
+IB499cCYMLbgFW_n1Xl^Sh1
+R1
+Z5 w1610447331
+Z6 8Wallace_tree_4.v
+Z7 FWallace_tree_4.v
+L0 1
+R2
+R3
+Z8 !s107 RCA.v|Wallace_tree_4.v|C:/questasim64_10.4c/examples/Barrett/Multiplier_4xN.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/questasim64_10.4c/examples/Barrett/Multiplier_4xN.v|
+!i113 0
+R4
+n@c@s@a_@f
+vCSA_H
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 >9jfO2X[m=RN7fPm_TP=40
+ICje^EU5]:J<e54TV3W^a<1
+R1
+R5
+R6
+R7
+Z10 L0 10
+R2
+R3
+R8
+R9
+!i113 0
+R4
+n@c@s@a_@h
+vFA
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 f?2?72oaT=lMbf=OaI7`G3
+ICUDN76KaPF0H3^;O9Bl0F3
+R1
+Z11 w1610506825
+Z12 8RCA.v
+Z13 FRCA.v
+L0 1
+R2
+R3
+R8
+R9
+!i113 0
+R4
+n@f@a
+vMultiplier_4xN
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 [=Y_O5Lj:`DnmZdlHReZ31
+IkAeIc0WNZ::K^R36J<8TE1
+R1
+w1610627166
+8C:/questasim64_10.4c/examples/Barrett/Multiplier_4xN.v
+FC:/questasim64_10.4c/examples/Barrett/Multiplier_4xN.v
+L0 3
+R2
+R3
+R8
+R9
+!i113 0
+R4
+n@multiplier_4x@n
+vRCA
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 BJCMMzHjfbJVU5Ln43l2J0
+ICilWKD`jN2>d3<zAdbR:G2
+R1
+R11
+R12
+R13
+R10
+R2
+R3
+R8
+R9
+!i113 0
+R4
+n@r@c@a
+vtb_Barrett_4
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 3^m4G>T@TW>X3S6aBEk2A2
+InTC:NeO6fNk6XJ<n?KAFB2
+R1
+w1610676131
+8C:/questasim64_10.4c/examples/Barrett/tb_Barrett_4.v
+FC:/questasim64_10.4c/examples/Barrett/tb_Barrett_4.v
+L0 1
+R2
+R3
+!s107 C:/questasim64_10.4c/examples/Barrett/tb_Barrett_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/questasim64_10.4c/examples/Barrett/tb_Barrett_4.v|
+!i113 0
+R4
+ntb_@barrett_4
+vtb_Multiplier_4xN
+Z14 !s110 1610677231
+!i10b 1
+!s100 e5mK7lB97i4noB0G4GTAi1
+I]cfE5LN5Vz2X=b:JT>d3I2
+R0
+R1
+w1610627165
+8C:/questasim64_10.4c/examples/Barrett/tb_Multiplier_4xN.v
+FC:/questasim64_10.4c/examples/Barrett/tb_Multiplier_4xN.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/questasim64_10.4c/examples/Barrett/tb_Multiplier_4xN.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/questasim64_10.4c/examples/Barrett/tb_Multiplier_4xN.v|
+!i113 0
+R4
+ntb_@multiplier_4x@n
+vtb_Wallacetree_4
+R14
+!i10b 1
+!s100 WXHT1;JSDDgh53ZT0NDN]1
+Ib;HUn`@9<ic]kA9WnP=kW0
+R0
+R1
+w1610447334
+8C:/questasim64_10.4c/examples/Barrett/tb_Wallacetree.v
+FC:/questasim64_10.4c/examples/Barrett/tb_Wallacetree.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/questasim64_10.4c/examples/Barrett/tb_Wallacetree.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/questasim64_10.4c/examples/Barrett/tb_Wallacetree.v|
+!i113 0
+R4
+ntb_@wallacetree_4
+vWallace_tree_4
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 EfE;JDI<Cg5kbf:?cRicf0
+Io^JKZ_4PzghAYPHnOM_I]2
+R1
+R5
+R6
+R7
+L0 19
+R2
+R3
+R8
+R9
+!i113 0
+R4
+n@wallace_tree_4
+vWallace_tree_8
+R14
+!i10b 1
+!s100 TkiaCdFMz`b5Bc?k3:P:z3
+IWm@oc<?6fHQI]KhKR@g3E3
+R0
+R1
+w1610432468
+8C:/questasim64_10.4c/examples/Barrett/Wallace_tree_8.v
+FC:/questasim64_10.4c/examples/Barrett/Wallace_tree_8.v
+L0 11
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/questasim64_10.4c/examples/Barrett/Wallace_tree_8.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/questasim64_10.4c/examples/Barrett/Wallace_tree_8.v|
+!i113 0
+R4
+n@wallace_tree_8

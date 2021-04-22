@@ -1,0 +1,8 @@
+{C:/questasim64_10.4c/examples/New folder/tb_Wallacetree.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_10.4c/examples/New folder/tb_Wallacetree.v}
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module tb_Wallacetree_4
+
+Top level modules:
+	tb_Wallacetree_4
+
+} {} {}}

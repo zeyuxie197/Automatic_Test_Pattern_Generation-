@@ -1,0 +1,2 @@
+MATCH:  A =  32, B =  32, M =  64, Z =   0, golden =      0
+ERROR:  A =  30, B =  31, M =  64, Z = 418, golden =     34
