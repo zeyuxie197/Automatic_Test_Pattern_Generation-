@@ -1,0 +1,53 @@
+Loading db file '/home/scf-22/ee577/NCSU45PDK/FreePDK45/osu_soc/lib/files/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : cardinal_cmp
+Version: K-2015.06-SP5-5
+Date   : Wed Apr 21 01:05:49 2021
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /home/scf-22/ee577/NCSU45PDK/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   2.4158 mW   (94%)
+  Net Switching Power  = 143.1552 uW    (6%)
+                         ---------
+Total Dynamic Power    =   2.5590 mW  (100%)
+
+Cell Leakage Power     =   3.8811 mW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           2.3232        2.7075e-03        7.2422e+05            3.0501  (  47.36%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  9.2557e-02            0.1403        3.1568e+06            3.3898  (  52.64%)
+--------------------------------------------------------------------------------------------------
+Total              2.4158 mW         0.1430 mW     3.8811e+06 nW         6.4399 mW
+1
